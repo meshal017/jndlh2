@@ -1232,7 +1232,8 @@ section {
 }
 
 .about .nav-pills li+li {
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 50px;
 }
 
 .about .nav-link {
