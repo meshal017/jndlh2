@@ -1381,6 +1381,7 @@ section {
   position: relative;
   z-index: 3;
   border-radius: 15px;
+  top: -50px;
 }
 
 /*--------------------------------------------------------------
