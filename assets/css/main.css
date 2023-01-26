@@ -2689,7 +2689,7 @@ section {
 .blog .blog-details .content blockquote:after {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   width: 3px;
@@ -2825,6 +2825,35 @@ section {
 .blog .sidebar {
   padding: 30px;
   box-shadow: 0 4px 16px rgba(var(--color-black-rgb), 0.1);
+}
+
+.blog .sidebar blockquote {
+  overflow: hidden;
+  background-color: rgba(var(--color-secondary-rgb), 0.06);
+  padding: inherit;
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+.blog .sidebar blockquote p {
+  color: var(--color-default);
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.blog .sidebar blockquote:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--color-secondary);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .blog .sidebar .sidebar-title {
