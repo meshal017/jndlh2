@@ -31,7 +31,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -113,7 +115,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 48px;
+  font-size: 55px;
   font-weight: 300;
   margin-bottom: 20px;
   color: var(--color-secondary);
@@ -251,7 +253,7 @@ section {
   font-size: 32px;
   font-weight: 300;
   color: var(--color-secondary);
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .header .logo h1 span {
@@ -267,7 +269,7 @@ section {
   padding: 8px 23px;
   border-radius: 4px;
   transition: 0.3s;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .header .btn-getstarted:hover,
@@ -315,8 +317,8 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 14px 20px;
-    font-family: var(--font-secondary);
-    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
     font-weight: 400;
     color: #0F2C40 ;
     white-space: nowrap;
@@ -590,7 +592,7 @@ section {
   font-size: 48px;
   font-weight: 300;
   color: var(--color-secondary);
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .hero-animated h2 span {
@@ -636,7 +638,7 @@ section {
   transition: 0.5s;
   color: var(--color-white);
   background: var(--color-primary);
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .hero-animated .btn-get-started:hover {
@@ -647,7 +649,7 @@ section {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
   color: var(--color-secondary);
   font-weight: 600;
 }
@@ -762,7 +764,7 @@ section {
 }
 
 .hero .btn-get-started {
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -962,7 +964,7 @@ section {
 
 .hero-fullscreen:before {
   content: "";
-  background: rgba(var(--color-white-rgb), 0.85);
+  background: rgba(var(--color-white-rgb), 0.70);
   position: absolute;
   inset: 0;
 }
@@ -975,21 +977,26 @@ section {
 
 .hero-fullscreen h2 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 300;
   color: var(--color-secondary);
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
-.hero-fullscreen h2 span {
+.hero-fullscreen h2  span {
+  color: var(--color-primary);
+}
+
+.hero-fullscreen h3  span {
   color: var(--color-primary);
 }
 
 .hero-fullscreen p {
   color: rgba(var(--color-secondary-rgb), 0.8);
   margin: 0 0 30px 0;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
+  font-family: 'Cairo', sans-serif;
 }
 
 .hero-fullscreen .btn-get-started {
@@ -1001,7 +1008,7 @@ section {
   transition: 0.5s;
   color: var(--color-white);
   background: var(--color-primary);
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .hero-fullscreen .btn-get-started:hover {
@@ -1012,7 +1019,7 @@ section {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
   color: var(--color-secondary);
   font-weight: 600;
 }
@@ -1066,7 +1073,7 @@ section {
   font-size: 48px;
   font-weight: 300;
   color: #4C6F8A;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .hero-static h2 span {
@@ -1089,7 +1096,7 @@ section {
   transition: 0.5s;
   color: var(--color-white);
   background: #859fba;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .hero-static .btn-get-started:hover {
@@ -1100,7 +1107,7 @@ section {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
   color: #4C6F8A;
   font-weight: 600;
 }
@@ -1215,7 +1222,7 @@ section {
 
 .about h3 {
   color: #0F2C40 ;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
   font-weight: 300;
   font-size: 32px;
   margin-bottom: 20px;
@@ -1241,10 +1248,10 @@ section {
   font-size: 18px;
   font-weight: 400;
   color: #9B807B  ;
-  padding: 12px 0;
+  padding: 12px ;
   margin-bottom: -2px;
   border-radius: 0;
-  font-family: var(--font-secondary);
+  font-family: 'Cairo', sans-serif;
 }
 
 .about .nav-link.active {
@@ -1436,7 +1443,7 @@ section {
 }
 
 .onfocus .content .read-more {
-  font-family: var(--font-primary);
+  font-family: 'Cairo', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1881,7 +1888,7 @@ section {
   font-size: 48px;
   color: var(--color-white);
   font-weight: 400;
-  font-family: var(--font-primary);
+  font-family: 'Cairo', sans-serif;
   margin-bottom: 0;
 }
 
@@ -2012,6 +2019,7 @@ section {
   background: var(--color-white);
   box-shadow: none;
   border-radius: 5px;
+  
 }
 
 .faq .accordion-button:not(.collapsed) {
@@ -2847,7 +2855,7 @@ section {
 .blog .sidebar blockquote:after {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   width: 3px;
@@ -3187,7 +3195,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: var(--font-primary);
+  font-family: 'Cairo', sans-serif;
   color: var(--color-white);
 }
 
@@ -3319,4 +3327,45 @@ section {
 .footer .footer-legal .social-links a:hover {
   background: #859fba;
   text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: large;
+  font-family: 'Cairo', sans-serif;
+}
+
+.features .tab-pane ul li {
+  padding-bottom: 10px;
+  font-family: 'Cairo', sans-serif;
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+   background-image: linear-gradient( -225deg,
+   #5e768e 30%, 
+    #4e81cd 29%, 
+    #0ea2bd 67%,
+     #0ea2bd 100% 
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
